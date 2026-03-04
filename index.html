@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="main-html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ithri Lfjar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+       <nav>
+    <div class="logo">
+        <img src="img/Capture d'écran 2026-03-03 122734.png" alt="Ait Amrane Graphic" class="nav-logo">
+    </div>
+    <div class="nav-controls">
+        </div>
+</nav>
+        <div class="nav-controls">
+            <ul id="nav-links">
+                <li><a href="#home" data-key="nav-home">الرئيسية</a></li>
+                <li><a href="#work" data-key="nav-work">أعمالي</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button onclick="changeLang('ar')">AR</button>
+                <button onclick="changeLang('en')">EN</button>
+                <button onclick="changeLang('fr')">FR</button>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1 id="hero-title">أهلاً، أنا <span class="highlight">مصمم جرافيك</span></h1>
+            <p id="hero-desc">أحول الأفكار إلى واقع بصري ملموس.</p>
+            <a href="#work" class="btn" id="hero-btn">مشاهدة أعمالي</a>
+        </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <h2 id="work-title">معرض <span class="highlight">الأعمال</span></h2>
+        <div class="grid">
+            <div class="card">
+                <img src="img/12dde2c1-be0f-464d-b81a-ae0673703681.jpg" alt="Work">
+                <div class="overlay" data-key="project-1">هوية بصرية / Branding</div>
+            </div>
+            <div class="card">
+                <img src="img/bca5b6e1-e660-43f6-a55b-5aa4744eb6e8.jpg" alt="Work">
+                <div class="overlay" data-key="project-2">سوشيال ميديا / Social Media</div>
+            </div>
+            <div class="card">
+                <img src="img/72706292-5c0b-4f02-9037-ae4f88841843.jpg" alt="Work">
+                <div class="overlay" data-key="project-2">كتب / books</div>
+            </div>
+            <div class="card">
+                <img src="img/logo.jpg" alt="Work">
+                <div class="overlay" data-key="project-2">شعارات / Logos</div>
+            </div>
+            <div class="card">
+                <img src="img/retouches.jpg" alt="Work">
+                <div class="overlay" data-key="project-2">رتوشات صور  /Retouches </div>
+            </div>
+        </div>
+    </section>
+<section id="cv-section" class="cv-download">
+    <div class="cv-container">
+        <h2 id="cv-title">هل تريد معرفة المزيد عن مساري؟</h2>
+        <p id="cv-desc">يمكنك تحميل سيرتي الذاتية كاملة بصيغة PDF.</p>
+        
+        <a href="cv.pdf" download="cv" class="cv-btn" id="cv-btn">
+            <span class="icon">📥</span> <span id="cv-btn-text">تحميل الـ CV</span>
+        </a>
+    </div>
+</section>
+    <a href="https://wa.me/213795816267" class="whatsapp-fixed" target="_blank">
+    <span class="wa-text" id="wa-text">تواصل معي</span>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
+    <script src="script.js"></script>
+
+</body>
+</html>
